@@ -24,12 +24,19 @@
     selectBtn.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:selectBtn];
     
+
     
     UIView *view1 = [[UIView alloc]init];
     [self.view addSubview:view1];
     view1.frame = CGRectMake(0, 0, 20, 20);
     view1.backgroundColor = [UIColor blueColor];
     
+
+    UIView *view2 = [[UIView alloc]init];
+    [self.view addSubview:view2];
+    view2.frame = CGRectMake(0, 300, 200, 200);
+    view2.backgroundColor = [UIColor greenColor];
+
 }
 
 
