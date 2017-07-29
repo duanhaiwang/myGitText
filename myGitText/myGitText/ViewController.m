@@ -23,6 +23,13 @@
     selectBtn.layer.cornerRadius = 5;
     selectBtn.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:selectBtn];
+    
+    
+    UIView *view1 = [[UIView alloc]init];
+    [self.view addSubview:view1];
+    view1.frame = CGRectMake(0, 0, 20, 20);
+    view1.backgroundColor = [UIColor blueColor];
+    
 }
 
 
